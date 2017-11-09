@@ -135,6 +135,15 @@ footer ul li:hover a {
     }
 }
 
+@media screen and (max-width: 767px) and (orientation: landscape) {
+    .celular {
+        display: none;
+    }
+    .escritorio {
+        display: block
+    }
+}
+
 @media screen and (min-width: 768px) {
     .celular {
         display: none;
