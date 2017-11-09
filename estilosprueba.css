@@ -90,17 +90,7 @@ div[class*="col-"] {
 /*FOOTER*/
 
 footer {
-    overflow: hidden;
     background-color: black;
-    float: left;
-}
-
-footer p {
-    color: #AF2121;
-    font-size: 1.2rem;
-    margin: 80px 50px 0px 500px;
-    float: left;
-    text-align: center;
 }
 
 hr {
@@ -108,7 +98,25 @@ hr {
 }
 
 footer ul {
+    list-style: none;
+}
+
+footer ul li {
     float: left;
+    padding: 14px 15px;
+}
+
+footer ul li:hover {
+    background: #b91ea6;
+}
+
+footer ul li:hover a {
+    color: white;
+}
+
+
+/*
+footer ul {
     list-style: none;
     margin: -110px 0px 0px 425px;
 }
@@ -124,6 +132,12 @@ footer ul li:hover {
 
 footer ul li:hover a {
     color: white;
+}
+*/
+
+footer a {
+    width: 50px;
+    height: 50px
 }
 
 @media screen and (max-width: 767px) and (orientation: portrait) {
